@@ -1,0 +1,8 @@
+
+query TestDetails($id: String!){
+  Test(id: $id){
+    _id
+    files
+    timeStamp
+  }
+}

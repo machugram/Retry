@@ -1,0 +1,11 @@
+
+query getTestList{
+TestList{
+  issues
+  _id
+  files
+  DetailedReport
+  timeStamp
+  __typename
+}
+  }
